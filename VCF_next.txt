@@ -1,0 +1,10 @@
+#What is next:
+#Fit it into my HPC script.
+	Pseudocode Idea: If grep results come back THEN execute the script. Else, continue
+#Potential issue
+	Multiple multiallelic sites. This script doesnt loop through so im not sure what would happen.
+	
+	Good news: I have a script that rips apart the SLiM output files into individual VCF files, so I can just run VCF_Combine_Multiallelic_Sites.sh on these instead of the appeneded files that SLiM creates.
+
+#Good news
+	It runs fast, instantly as far as I can tell.
